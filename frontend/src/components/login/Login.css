@@ -1,0 +1,28 @@
+/* Login.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #343a40; /* Dark background similar to the navbar */
+  }
+  
+  .login-form {
+    width: 100%;
+    max-width: 320px; /* Ensures the form is not too wide */
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 8px; /* Rounded corners */
+    border: 1px solid #fff; /* White border for some contrast */
+  }
+  
+  .login-form label {
+    color: gold; /* Gold color for labels */
+  }
+  
+  .login-form button {
+    background-color: gold;
+    color: black;
+    border: none;
+  }
+  

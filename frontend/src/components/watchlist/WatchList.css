@@ -1,0 +1,29 @@
+/* WatchList.css */
+.watch-list {
+    padding: 20px;
+    background-color: #343a40; /* Dark background to match the header */
+    color: white; /* White text for readability */
+    min-height: 100vh; /* Minimum height to take full viewport height */
+    width: 100%; /* Full width */
+}
+
+.watch-list h2 {
+    color: gold; /* Gold color to match the theme from Header */
+    margin-bottom: 20px; /* Spacing below the header */
+}
+
+.watch-list ul {
+    list-style: none; /* No bullets for the list */
+    padding: 0; /* Remove padding */
+}
+
+.watch-list li {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #20232a; /* Slightly lighter background for items */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.watch-list li.watched {
+    background-color: #666; /* Different background for watched items */
+}
